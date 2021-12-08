@@ -7,7 +7,9 @@ orbs:
 
 jobs:
   build:
-    executor: node/default
+    executor:
+      name: node/default
+      tag: 'lts-browsers'
     working_directory: ~/project
     steps:
       - checkout
