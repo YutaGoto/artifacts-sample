@@ -1,0 +1,16 @@
+{
+  "name": "artifacts-sample",
+  "description": "artifacts-sample",
+  "version": "0.0.0",
+  "author": "YutaGoto <you.goto.510@gmail.com>",
+  "scripts": {
+    "build": "vivliostyle build",
+    "preview": "vivliostyle preview"
+  },
+  "dependencies": {
+    "@vivliostyle/cli": "latest",
+    "@vivliostyle/theme-techbook": "^0.4.0"
+  },
+  "license": "AGPL-3.0",
+  "private": true
+}

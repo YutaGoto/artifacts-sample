@@ -1,0 +1,20 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "type": "Book",
+  "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
+  "author": "YutaGoto <you.goto.510@gmail.com>",
+  "inLanguage": "ja",
+  "dateModified": "2021-12-08T13:18:23.741Z",
+  "name": "artifacts-sample",
+  "readingOrder": [
+    {
+      "url": "techbook.html",
+      "title": "Brief History of JavaScript"
+    }
+  ],
+  "resources": [],
+  "links": []
+}
