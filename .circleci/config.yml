@@ -10,6 +10,7 @@ jobs:
     executor: node/default
     working_directory: ~/project
     steps:
+      - checkout
       - node/install-packages:
           cache-path: ~/project/node_modules
           override-ci-command: yarn install
